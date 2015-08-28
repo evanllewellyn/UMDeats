@@ -11,7 +11,8 @@ in Java and utilizes Amazon Web Services. It's GUI is designed with JavaFX and C
 * Comments must be between 1 and 60 characters in length. Displays popup info box if specifications are not met, as shown below.
 ![alt text](https://github.com/evanllewellyn/UMDeats/blob/master/UMDEatspics/toomany.png "too many char")
 
-An example photo of the application's use: 
+
+# An example photo of the application's use: 
 ![alt text](https://github.com/evanllewellyn/UMDeats/blob/master/UMDEatspics/overall.png "overall")
 
 
