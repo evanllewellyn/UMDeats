@@ -1,0 +1,1 @@
+{"date":{"date":{"year":2015,"month":8,"day":28},"time":{"hour":1,"minute":18,"second":46,"nano":206000000}},"lunchMenu":["SC Shredded Beef Roasted Potato Burrito"],"dinnerMenu":["Batter Fried Cod","Cheddar Idaho Potato Wedges","Caesar Salad"],"comments":[]}

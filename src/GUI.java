@@ -38,7 +38,7 @@ public class GUI extends Application {
         /* If there is no data in the S3 bucket or the Date from the online date is not current creates a new DailyInfo object with
         * the updated menu from http://dining.umd.edu/menus/.
         */
-        if(s3info != null  && s3info.printDT().compareTo(LocalDateTime.now().format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM))) != 0) {
+        if(s3info != null  && s3info.printDT().compareTo(LocalDateTime.now().format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM))) == 0) {
             today = s3info;
         } else {
             ArrayList<ArrayList<String>> menu = MenuParser.parseMenu();
