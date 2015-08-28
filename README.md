@@ -1,6 +1,6 @@
 # UMDeats
 
-UMDeats displays the current days lunch and dinner menu being served at The University of Maryland's diners. It also features a cross user comment section that refreshed daily with each updated menu. 
+UMDeats displays the current day's lunch and dinner menu that being served at The University of Maryland's diners. It also features a cross user comment section that is refreshed daily with each updated menu. 
 The comment system is anonymous between users, only displaying the time that the comment was made. The comment section allows users to share their opinions of the daily menu between each other. UMDeats is written
 in Java and utilizes Amazon Web Services. It's GUI is designed with JavaFX and CSS.
 
@@ -17,9 +17,7 @@ An example photo of the application's use:
 
 # Details
 
-UMDeats retrieves University of Maryland's daily menu information off of its [dining menu webpage](http://dining.umd.edu/menus/) by using the [Jsoup API](http://jsoup.org/) to retrieve and parse the HTML code from
-the school website. The parsed data is then created into an object that converted to and from Json objects using [Google's Gson API](https://github.com/google/gson). Comments are also contained in the 
-Json object along with the day's menu.
+UMDeats retrieves University of Maryland's daily menu information off of its [dining menu webpage](http://dining.umd.edu/menus/) by using the [Jsoup API](http://jsoup.org/) to retrieve and parse the HTML code. The parsed data is then created into an object that converted to and from Json objects using [Google's Gson API](https://github.com/google/gson). Comments are also contained in the Json object along with the day's menu.
 
 This Json object is uploaded and downloaded to a AWS S3 bucket through the [AWS SDK for Java](https://aws.amazon.com/sdk-for-java/). Keeping the Json file in a S3 bucket online 
 allows the daily comment section to persist between different users. The S3 Bucket has a set policy to only accept data in the form of a .txt file.  
