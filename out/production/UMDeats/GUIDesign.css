@@ -1,0 +1,41 @@
+.root {
+    -fx-background-image: url("http://i.imgur.com/NvrZItC.jpg");
+    -fx-background-size: cover;
+}
+
+.top-label {
+    -fx-font-size: 30pt;
+    -fx-font-weight: bolder;
+    -fx-text-fill: rgba(40, 40, 40, 0.92);
+    font-family: "Consolas";
+
+
+}
+.text-area {
+    -fx-text-fill: #313134;
+    font-family: "Consolas";
+}
+
+.button {
+    -fx-background-color: #8a0800;
+    -fx-text-fill: white;
+    -fx-font-size: 9pt;
+    font-family: "Consolas";
+    -fx-padding: 8;
+    -fx-border-style: solid;
+    -fx-border-color: #440700;
+    -fx-background-radius: 16.4, 15;
+    -fx-background-insets: -1.4, 0;
+    -fx-border-radius: 15;
+    -fx-border-width: 1;
+
+}
+
+.button:hover {
+    -fx-background-color: #313134;
+    -fx-text-fill: white;
+}
+
+.label-bottom {
+    -fx-text-fill: gray;
+}
